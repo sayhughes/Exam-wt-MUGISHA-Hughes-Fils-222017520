@@ -1,1 +1,3 @@
-# Exam-wt-MUGISHA-Hughes-Fils-222017520
+# User and Password
+1.Username:kamali
+  Password:kamali4567
