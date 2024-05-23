@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url(login.gif);
+    background-position: center;
+    background-size: cover;
+    font-weight: 300;
+    
+}
+
+.header-business-logo {
+    display: inline-block;
+    margin-bottom: auto;
+    margin-left: 45%;
+}
+
+.header-business-logo img {
+    width: 150px;
+    height: auto;
+
+}
+
+.header-business-logo img:hover {
+    transform: scale(1.1);
+}
+
+.login-container {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    animation: slideIn 3s ease forwards;
+    max-width: 50%;
+    background:transparent;
+    backdrop-filter: blur(3px);
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.login-form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.login-form h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px  #ccc;
+    border-radius: 4px;
+    background-color: transparent;
+    box-shadow: 0 0 10px #565555cc;
+}
+
+p #register-l {
+    text-decoration: none;
+    color: #ff015e;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff0b0b82;
+}

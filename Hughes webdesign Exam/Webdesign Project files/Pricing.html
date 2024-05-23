@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing - Dashboard</title>
+    <link rel="stylesheet" href="PricingStyle.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="Homepage.html" class="header-business-logo">
+                    <img src="logo.png" alt="Hughes Logo">
+                </a>
+                <li><a href="Homepage.html">Home</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="OurProducts.html">Our Products</a></li>
+                <li><a href="ContactUsphp.php">Contact Us</a></li>
+                <li><a href="Dashboardphp.php">Dashboard</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="Profilephp.php">Profile & Settings</a></li>
+                <li><a href="#" id="logout">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Pricing Plans</h1>
+        <section class="pricing-plan">
+            <div class="plan">
+                <h2>Basic Plan</h2>
+                <ul>
+                    <li>Content creation</li>
+                    <li>Basic analytics</li>
+                    <li>Limited support</li>
+                </ul>
+                <p class="price">10,000RWF/month</p>
+                <h4><label for="payment">Payment Method:</label></h4><br>
+                <select id="payment">
+                    <option value="">Please select one..</option>
+                    <option value="mtn">MTN Momo</option>
+                    <option value="airtel">Airtel Money</option>
+                    <option value="credit-card">Credit Card</option>
+                    <option value="paypal">PayPal</option>
+                    <option value="bank-transfer">Bank Transfer</option>
+                </select><br>
+                <button id="select-plan1" onclick="showMessage1()">Select Plan</button>
+            </div>
+
+            <div class="plan">
+                <h2>Standard Plan</h2>
+                <ul>
+                    <li>Social media strategy development</li>
+                    <li>Detailed analytics reports</li>
+                    <li>Priority support</li>
+                </ul>
+                <p class="price">30,000RWF/month</p>
+                <h4><label for="payment">Payment Method:</label></h4><br>
+                <select id="payment">
+                    <option value="">Please select one..</option>
+                    <option value="mtn">MTN Momo</option>
+                    <option value="airtel">Airtel Money</option>
+                    <option value="credit-card">Credit Card</option>
+                    <option value="paypal">PayPal</option>
+                    <option value="bank-transfer">Bank Transfer</option>
+                </select><br>
+                <button id="select-plan2" onclick="showMessage2()">Select Plan</button>
+            </div>
+
+            <div class="plan">
+                <h2>Premium Plan</h2>
+                <ul>
+                    <li>Personalized consulting</li>
+                    <li>Dedicated account management</li>
+                    <li>Custom solutions</li>
+                </ul>
+                <p class="price">100,000RWF/month</p>
+                <h4><label for="payment">Payment Method:</label></h4><br>
+                <select id="payment">
+                    <option value="">Please select one..</option>
+                    <option value="mtn">MTN Momo</option>
+                    <option value="airtel">Airtel Money</option>
+                    <option value="credit-card">Credit Card</option>
+                    <option value="paypal">PayPal</option>
+                    <option value="bank-transfer">Bank Transfer</option>
+                </select><br>
+                <button id="select-plan3" onclick="showMessage3()">Select Plan</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <a href="Homepage.html" class="footer-business-logo">
+                 <img src="logo.png" alt="Hughes Logo">
+            </a>
+                
+            <div class="social-media">
+                <a href="https://www.facebook.com/saytohughes/" class="social-icon"><img src="facebook_icon.jpg" alt="Facebook"></a>
+                <a href="https://www.instagram.com/sayhughes/" class="social-icon"><img src="instagram_icon.jpg" alt="Instagram"></a>
+                <a href="https://twitter.com/sayhughes/" class="social-icon"><img src="x_icon.png" alt="X"></a>
+                <a href="https://www.youtube.com/" class="social-icon"><img src="youtube_icon.png" alt="YouTube"></a>
+                <a href="https://www.snapchat.com/" class="social-icon"><img src="snapchat_icon.png" alt="Snapchat"></a>
+                <a href="https://github.com/sayhughes" class="social-icon"><img src="gitihub_icon.jpg" alt="GitHub"></a>
+            </div>
+            <div class="footer-links">
+                <p>&copy; 2024 Hughes Social Media Management</p>
+                <div class="legal-links">
+                    <a href="TermsandConditions.html">Terms & Conditions</a>
+                    <a href="PrivacyPolicy.html">Privacy Policy</a>
+                    <a href="CookiesPolicy.html">Cookies Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="Dashboardjava.js"></script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url(register.gif);
+    background-position: center;
+    background-size: cover;
+    font-weight: 300;
+    
+}
+
+.header-business-logo {
+    display: inline-block;
+    margin-bottom: auto;
+    margin-left: 45%;
+}
+
+.header-business-logo img {
+    width: 100px;
+    height: auto;
+
+}
+
+.header-business-logo img:hover {
+    transform: scale(1.1);
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.signup-container {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    animation: slideIn 3s ease forwards;
+    max-width: 50%;
+    background:transparent;
+    backdrop-filter: blur(3px);
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+.signup-container div p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 12px;
+    color: #141212;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+
+.signup-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.signup-form h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #141212;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input {
+    width: 80%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: transparent;
+    box-shadow: 0 0 10px rgba(86, 85, 85, 0.8);
+}
+.form-group select {
+    width: 80%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: transparent;
+    box-shadow: 0 0 10px rgba(86, 85, 85, 0.8);
+
+}
+
+p #login-l{
+    text-decoration: 0;
+    color:#ff015e;
+}
+p a{
+    text-decoration: none
+}
+a #t-c{
+    text-decoration: none;
+}
+
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color:#ff000082;
+}

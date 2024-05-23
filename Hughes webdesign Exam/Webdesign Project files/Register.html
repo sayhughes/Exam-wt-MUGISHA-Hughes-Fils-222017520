@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="RegisterStyle.css">
+</head>
+
+<body>
+    <a href="Homepage.html" class="header-business-logo">
+        <img src="logo.png" alt="Hughes Logo">
+   </a>
+    <h1>Create your free account, now</h1>
+    <div class="signup-container">
+        <form class="signup-form" action="Registerphp.php" method="post">
+            <h2>Register</h2>
+            <div class="form-group">
+                <label for="fullname">Full Names:</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username"  required>
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select name="gender" id="gender" required>
+                    <option value="">Please select one...</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Others">Others</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Let's go! →</button>
+        <div>           
+             <p>Hughes Social Media Management website, S.L. is responsible for the processing of your data, for the purpose of providing Social Media Management services and sending you communications about website news and/or promotions, unless you object to this at any time. You have the right of access, rectification, deletion, limitation, opposition to processing and portability. More information <a href="ContactUsphp.php">Contact Us</a></p>
+             <p>
+                <input type="checkbox"  value="" required> I have read and accept the <a href="TermsandConditions.html">Terms&Conditions</a> by Hughes Socialmedia management <br>
+             </p>
+             <p>
+                <input type="checkbox" value=""> I do not wish to receive communications about news and/or promotions from Hughes SMM Software.
+             </p>
+        </div>
+
+            <b><p id="l">You have an account..? <a href="Login.html" id="login-l">Login</a></p></b>
+        </form>
+    </div>
+</body>
+
+</html>

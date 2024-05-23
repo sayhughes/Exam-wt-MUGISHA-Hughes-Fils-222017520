@@ -1,0 +1,233 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('background.jpeg') no-repeat center center fixed;
+}
+
+
+header {
+    background-color:transparent;
+    padding: 1rem;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.header-business-logo {
+    display: inline-block;
+}
+
+.header-business-logo img {
+    width: 100px; 
+    height: auto;
+}
+
+.header-business-logo img:hover {
+    transform: scale(1.1); 
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul #logout {
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #fd3411;
+}
+
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+.user-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    background:transparent;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+
+.user-card h2 {
+    text-align: center;
+    color: #000000d8;
+}
+.user-card h4{
+    text-align: center;
+    color: #000000af;
+}
+
+.card-content {
+    margin-top: 20px;
+}
+
+.card-content p {
+    margin: 10px 0;
+    font-size: 16px;
+    color:#666 ;
+}
+
+.card-content p #pa {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #666;
+}
+/*Style for Reset Password*/
+
+.change-password-form {
+    position: absolute;
+
+    top: 20%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    animation: slideIn 3s ease forwards;
+    max-width: 50%;
+    background:transparent;
+    backdrop-filter: blur(3px);
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+.change-password-form h2{
+    color: black;
+}
+.change-password-form label{
+    color: #000000af;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.reset-form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.reset-form h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px  #ccc;
+    border-radius: 4px;
+    background-color: transparent;
+    box-shadow: 0 0 10px #565555cc;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff0b0b82;
+}
+
+
+footer {
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+    text-align: left;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links p {
+    margin: 0;
+}
+
+.legal-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.legal-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-business-logo {
+    display: inline-block;
+}
+
+.footer-business-logo img {
+    width: 200px; 
+    height: auto; 
+}
+
+.footer-business-logo img:hover {
+    transform: scale(1.1); 
+}
+
+.social-media {
+    margin-bottom: 30px;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    border-radius: 50%; 
+    overflow: hidden; 
+    box-shadow: 0 0 0 2px #333; 
+}
+
+.social-icon img {
+    width: 30px;
+    height: 30px;
+}

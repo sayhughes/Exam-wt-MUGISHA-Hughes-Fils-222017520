@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="LoginStyle.css">
+</head>
+
+<body>
+    <a href="Homepage.html" class="header-business-logo">
+        <img src="logo.png" alt="Hughes Logo">
+   </a>
+    <div class="login-container">
+        <form class="login-form" action="LoginPhp.php" method="post">
+            <h2>Login</h2>
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+            <b><p>Don't have an account..?  <a href="Register.html" id="register-l">Register here</a></p></b>
+        </form>
+    </div>
+    <script src="Loginjava.js"></script>
+    <script src="Dashboardjava.js"></script>
+</body>
+</html>

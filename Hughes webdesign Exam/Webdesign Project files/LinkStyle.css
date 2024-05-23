@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: left;
+    background:transparent;
+    backdrop-filter: blur(3px);
+    padding: 70px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+h1{
+    color: rgb(0, 0, 0);
+}
+
+h2{
+    color: rgba(0, 0, 0, 0.703);
+}
+p{
+    color: rgba(0, 0, 0, 0.509);
+}
+ul{
+    color: rgba(0, 0, 0, 0.509);
+}
